@@ -14,7 +14,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Tausif Saiyed Portfolio",
+  title: "Tausif Saiyed",
   description: "Senior trainer with 12+ years across professional training, enterprise application development, and system architecture.",
 };
 
