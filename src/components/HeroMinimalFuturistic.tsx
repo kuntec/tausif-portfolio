@@ -37,7 +37,7 @@ export default function HeroMinimalFuturistic() {
             </div>
 
             <h1 className="mt-6 text-4xl font-semibold leading-tight tracking-tight md:text-5xl">
-              Training professional.
+              Training professionals.
               <span className="text-white/65"> Designing real systems.</span>
             </h1>
 
