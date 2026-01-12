@@ -37,7 +37,7 @@ export default function HeroMinimalFuturistic() {
             </div>
 
             <h1 className="mt-6 text-4xl font-semibold leading-tight tracking-tight md:text-5xl">
-              Training professionals.
+              Training professionals
               <span className="text-white/65"> Designing real systems.</span>
             </h1>
 
@@ -51,6 +51,7 @@ export default function HeroMinimalFuturistic() {
             <div className="mt-7 flex flex-wrap gap-3">
               <a
                 href="/cv.pdf"
+                target="_blank"
                 className="inline-flex items-center gap-2 rounded-2xl bg-white px-5 py-3 text-sm font-semibold text-[#05060a] hover:opacity-90 transition"
               >
                 <Download size={18} /> Download CV

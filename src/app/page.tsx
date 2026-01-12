@@ -202,28 +202,24 @@ export default function Page() {
             <div className="mt-5 space-y-3 text-sm">
               <a
                 className="flex items-center gap-2 text-white/80 hover:text-white/95 transition"
-                href="mailto:tausif@elexa.ai"
+                href="mailto:tausifali.mhs@gmail.com"
               >
-                <Mail size={16} /> tausif@elexa.ai
+                <Mail size={16} /> tausifali.mhs@gmail.com
               </a>
               <a
                 className="flex items-center gap-2 text-white/80 hover:text-white/95 transition"
                 href="tel:+971XXXXXXXX"
               >
-                <Phone size={16} /> +971-XXXXXXXX
+                <Phone size={16} /> +971-567860628
               </a>
             </div>
           </div>
 
           <div className="rounded-2xl border border-white/12 bg-white/5 p-6 backdrop-blur">
-            <div className="text-sm font-semibold text-white/85">
-              Booking (high conversion)
-            </div>
-            <p className="mt-2 text-sm text-white/70">
-              Add your Calendly link here.
-            </p>
+           
             <a
-              href="#"
+              href="https://calendly.com/tausifali-mhs/tausif-saiyed-trainer"
+              target="_blank"
               className="mt-5 inline-flex items-center gap-2 rounded-2xl bg-white px-5 py-3 text-sm font-semibold text-[#05060a] hover:opacity-90 transition"
             >
               Book a 20-min call <ArrowRight size={18} />
