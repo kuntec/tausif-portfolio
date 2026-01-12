@@ -69,8 +69,8 @@ export default function HeroMinimalFuturistic() {
             <div className="mt-8 grid grid-cols-3 gap-3 max-w-md">
               {[
                 ["12+", "Years"],
-                ["30+", "Batches"],
-                ["400+", "Learners"],
+                ["120+", "Batches"],
+                ["1100+", "Learners"],
               ].map(([v, k]) => (
                 <div
                   key={k}
