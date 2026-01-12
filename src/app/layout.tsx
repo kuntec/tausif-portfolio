@@ -14,8 +14,35 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Tausif Saiyed",
-  description: "Senior trainer with 12+ years across professional training, enterprise application development, and system architecture.",
+  title: "Tausifali Saiyed | AI Trainer & Enterprise Architect",
+  description:
+    "Senior AI & Data Science Trainer, Full-Stack Developer, and Enterprise Architect based in Dubai. End-to-end training in AI, Web, and Mobile technologies.",
+
+  openGraph: {
+    title: "Tausifali Saiyed | AI Trainer & Enterprise Architect",
+    description:
+      "Senior AI & Data Science Trainer, Full-Stack Developer, and Enterprise Architect based in Dubai.",
+    url: "https://www.tausifsaiyed.com",
+    siteName: "Tausifali Saiyed",
+    images: [
+      {
+        url: "https://www.tausifsaiyed.com/og-image.jpg",
+        width: 1200,
+        height: 630,
+        alt: "Tausifali Saiyed – AI Trainer & Enterprise Architect",
+      },
+    ],
+    locale: "en_US",
+    type: "website",
+  },
+
+  twitter: {
+    card: "summary_large_image",
+    title: "Tausifali Saiyed | AI Trainer & Enterprise Architect",
+    description:
+      "Senior AI & Data Science Trainer, Full-Stack Developer, and Enterprise Architect based in Dubai.",
+    images: ["https://www.tausifsaiyed.com/og-image.jpg"],
+  },
 };
 
 export default function RootLayout({
